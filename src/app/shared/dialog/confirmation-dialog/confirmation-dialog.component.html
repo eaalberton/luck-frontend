@@ -1,0 +1,6 @@
+<h2 mat-dialog-title>Confirmação</h2>
+<mat-dialog-content [innerHTML]="data.message"></mat-dialog-content>
+<mat-dialog-actions class="py-3">
+	<button class="btn btn-primary text-white" mat-button mat-dialog-close>Não</button>
+	<button class="btn btn-secondary text-white" mat-button [mat-dialog-close]="true">Sim</button>
+</mat-dialog-actions>

@@ -26,7 +26,7 @@ export class MainComponent {
       private service:UserService,
       private dialog: MatDialog,
       public snackBar: MatSnackBar
-    ){}
+    ) {}
 
     findAll():void {
       this.service.findAll()
